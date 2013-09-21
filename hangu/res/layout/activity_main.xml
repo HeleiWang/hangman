@@ -3,18 +3,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal" >
-      <EditText android:id="@+id/edit_message"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="@string/edit_message" />
-       <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/button_send"
-        android:onClick="sendMessage" />
+    android:orientation="vertical"
+    android:background="@drawable/index" >
+    <TextView 
+        android:id="@+id/textView1" 
+        android:layout_weight = "3"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:text="" />
+
+    <Button
+        android:layout_weight = "1"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:onClick="startGame"
+        android:text="@string/button_start_game"
+        android:background="#44000000"
+        android:textColor = "#ffff"
+        android:textSize = "40sp"
+        android:textStyle = "bold"
+         />
     
-    
-    
+    <TextView 
+        android:id="@+id/textView2" 
+        android:layout_weight = "1"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:text="" />
+
 </LinearLayout>

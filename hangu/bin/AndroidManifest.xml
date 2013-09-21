@@ -30,6 +30,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.hangu.MainActivity" />
         </activity>
+        <activity
+            android:name="com.example.hangu.LevelSelectActivity"
+            android:label="@string/title_activity_level_select"
+            android:parentActivityName="com.example.hangu.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hangu.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.hangu.PlayActivity"
+            android:label="@string/title_activity_play"
+            android:parentActivityName="com.example.hangu.LevelSelectActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hangu.LevelSelectActivity" />
+        </activity>
     </application>
 
 </manifest>

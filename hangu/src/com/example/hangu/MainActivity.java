@@ -1,11 +1,16 @@
 package com.example.hangu;
 
+import android.app.ActionBar.LayoutParams;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Gallery;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 public class MainActivity extends Activity {
 	
@@ -25,12 +30,16 @@ public class MainActivity extends Activity {
         return true;
     }
     
-    /** Called when the user clicks the Send button */
-    public void sendMessage(View view) {   	
-    	Intent intent = new Intent(this, DisplayMessageActivity.class);
-    	EditText editText = (EditText) findViewById(R.id.edit_message);
-    	String message = editText.getText().toString();
-    	intent.putExtra(EXTRA_MESSAGE, message);
-    	System.out.print("11");
+    
+    public void startGame(View view) {   
+       Intent intent = new Intent(this, LevelSelectActivity.class);
+      // EditText editText = (EditText) findViewById(R.id.edit_message);
+       //String message = editText.getText().toString();
+       //intent.putExtra(EXTRA_MESSAGE, message);
+       startActivity(intent);
     }
+    
+    @Override
+	public void onBackPressed() {
+	}
 }
