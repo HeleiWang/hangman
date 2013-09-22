@@ -17,8 +17,8 @@
         android:layout_width="fill_parent"
         android:onClick="easyStart"
         android:text="@string/button_easy_level"
-        android:background="#44000000"
-        android:textColor = "#ffff"
+        android:background="@drawable/buttonstartstyle"
+        android:textColor = "@drawable/startcolor"
         android:textSize = "40sp"
         android:textStyle = "bold"
          />
@@ -33,8 +33,8 @@
         android:layout_width="fill_parent"
         android:onClick="hardStart"
         android:text="@string/button_hard_level"
-        android:background="#44000000"
-        android:textColor = "#ffff"
+        android:background="@drawable/buttonstartstyle"
+        android:textColor = "@drawable/startcolor"
         android:textSize = "40sp"
         android:textStyle = "bold"
         />
@@ -49,8 +49,8 @@
         android:layout_width="fill_parent"
         android:onClick="expertStart"
         android:text="@string/button_expert_level"
-        android:background="#44000000"
-        android:textColor = "#ffff"
+        android:background="@drawable/buttonstartstyle"
+        android:textColor = "@drawable/startcolor"
         android:textSize = "40sp"
         android:textStyle = "bold"
         />

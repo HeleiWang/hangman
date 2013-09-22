@@ -42,18 +42,18 @@
         android:gravity="center_horizontal"
         android:padding="0.5dp"
         android:weightSum="10"
-        android:textSize = "18sp" >        
+        android:textSize = "22sp" >        
         
         <Button
-            android:id="@+id/buttonQ" 
-            android:layout_weight="1" 
-            android:layout_height="fill_parent"
+            android:id="@+id/buttonQ"
             android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/buttonletterstyle"
             android:onClick="clickLetter"
             android:text="@string/button_letter_q"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
-         />
+            android:textColor="@drawable/lettercolor" />
+
          <Button
             android:id="@+id/buttonW" 
             android:layout_weight="1" 
@@ -61,8 +61,8 @@
             android:layout_width="0dp"
             android:onClick="clickLetter"
             android:text="@string/button_letter_w"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
+            android:background="@drawable/buttonletterstyle1"
+            android:textColor = "@drawable/lettercolor1"
          />
          
          <Button
@@ -72,74 +72,8 @@
             android:layout_width="0dp"
             android:onClick="clickLetter"
             android:text="@string/button_letter_e"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
-         />
-         
-         <Button
-            android:id="@+id/buttonT" 
-            android:layout_weight="1" 
-            android:layout_height="fill_parent"
-            android:layout_width="0dp"
-            android:onClick="clickLetter"
-            android:text="@string/button_letter_t"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
-         />
-         
-         <Button
-            android:id="@+id/buttonY" 
-            android:layout_weight="1" 
-            android:layout_height="fill_parent"
-            android:layout_width="0dp"
-            android:onClick="clickLetter"
-            android:text="@string/button_letter_y"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
-         />
-         
-         <Button
-            android:id="@+id/buttonU" 
-            android:layout_weight="1" 
-            android:layout_height="fill_parent"
-            android:layout_width="0dp"
-            android:onClick="clickLetter"
-            android:text="@string/button_letter_u"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
-         />
-         
-         <Button
-            android:id="@+id/buttonI" 
-            android:layout_weight="1" 
-            android:layout_height="fill_parent"
-            android:layout_width="0dp"
-            android:onClick="clickLetter"
-            android:text="@string/button_letter_i"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
-         />
-         
-         <Button
-            android:id="@+id/buttonO" 
-            android:layout_weight="1" 
-            android:layout_height="fill_parent"
-            android:layout_width="0dp"
-            android:onClick="clickLetter"
-            android:text="@string/button_letter_o"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
-         />
-         
-         <Button
-            android:id="@+id/buttonP" 
-            android:layout_weight="1" 
-            android:layout_height="fill_parent"
-            android:layout_width="0dp"
-            android:onClick="clickLetter"
-            android:text="@string/button_letter_p"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
+            android:background="@drawable/buttonletterstyle"
+            android:textColor = "@drawable/lettercolor"
          />
          
          <Button
@@ -149,8 +83,74 @@
             android:layout_width="0dp"
             android:onClick="clickLetter"
             android:text="@string/button_letter_r"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
+            android:background="@drawable/buttonletterstyle1"
+            android:textColor = "@drawable/lettercolor1"
+         />
+          
+         <Button
+            android:id="@+id/buttonT" 
+            android:layout_weight="1" 
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:onClick="clickLetter"
+            android:text="@string/button_letter_t"
+            android:background="@drawable/buttonletterstyle"
+            android:textColor = "@drawable/lettercolor"
+         />
+         
+         <Button
+            android:id="@+id/buttonY" 
+            android:layout_weight="1" 
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:onClick="clickLetter"
+            android:text="@string/button_letter_y"
+            android:background="@drawable/buttonletterstyle1"
+            android:textColor = "@drawable/lettercolor1"
+         />
+         
+         <Button
+            android:id="@+id/buttonU" 
+            android:layout_weight="1" 
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:onClick="clickLetter"
+            android:text="@string/button_letter_u"
+            android:background="@drawable/buttonletterstyle"
+            android:textColor = "@drawable/lettercolor"
+         />
+         
+         <Button
+            android:id="@+id/buttonI" 
+            android:layout_weight="1" 
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:onClick="clickLetter"
+            android:text="@string/button_letter_i"
+            android:background="@drawable/buttonletterstyle1"
+            android:textColor = "@drawable/lettercolor1"
+         />
+         
+         <Button
+            android:id="@+id/buttonO" 
+            android:layout_weight="1" 
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:onClick="clickLetter"
+            android:text="@string/button_letter_o"
+            android:background="@drawable/buttonletterstyle"
+            android:textColor = "@drawable/lettercolor"
+         />
+         
+         <Button
+            android:id="@+id/buttonP" 
+            android:layout_weight="1" 
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:onClick="clickLetter"
+            android:text="@string/button_letter_p"
+            android:background="@drawable/buttonletterstyle1"
+            android:textColor = "@drawable/lettercolor1"
          />
     </LinearLayout>
     <LinearLayout
@@ -161,7 +161,7 @@
         android:gravity="center_horizontal"
         android:padding="0.5dp"
         android:weightSum="10"
-        android:textSize = "18sp" >        
+        android:textSize = "22sp" >        
         
         <Button
             android:id="@+id/buttonA" 
@@ -170,19 +170,19 @@
             android:layout_width="0dp"
             android:onClick="clickLetter"
             android:text="@string/button_letter_a"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
+            android:background="@drawable/buttonletterstyle1"
+            android:textColor = "@drawable/lettercolor1"
          />
+
          <Button
-            android:id="@+id/buttonS" 
-            android:layout_weight="1" 
-            android:layout_height="fill_parent"
-            android:layout_width="0dp"
-            android:onClick="clickLetter"
-            android:text="@string/button_letter_s"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
-         />
+             android:id="@+id/buttonS"
+             android:layout_width="0dp"
+             android:layout_height="fill_parent"
+             android:layout_weight="1"
+             android:background="@drawable/buttonletterstyle"
+             android:onClick="clickLetter"
+             android:text="@string/button_letter_s"
+             android:textColor="@drawable/lettercolor" />
          
          <Button
             android:id="@+id/buttonD" 
@@ -191,8 +191,8 @@
             android:layout_width="0dp"
             android:onClick="clickLetter"
             android:text="@string/button_letter_d"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
+            android:background="@drawable/buttonletterstyle1"
+            android:textColor = "@drawable/lettercolor1"
          />
          
          <Button
@@ -202,8 +202,8 @@
             android:layout_width="0dp"
             android:onClick="clickLetter"
             android:text="@string/button_letter_f"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
+            android:background="@drawable/buttonletterstyle"
+            android:textColor = "@drawable/lettercolor"
          />
          
          <Button
@@ -213,8 +213,8 @@
             android:layout_width="0dp"
             android:onClick="clickLetter"
             android:text="@string/button_letter_g"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
+            android:background="@drawable/buttonletterstyle1"
+            android:textColor = "@drawable/lettercolor1"
          />
          
          <Button
@@ -224,8 +224,8 @@
             android:layout_width="0dp"
             android:onClick="clickLetter"
             android:text="@string/button_letter_h"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
+            android:background="@drawable/buttonletterstyle"
+            android:textColor = "@drawable/lettercolor"
          />
          
          <Button
@@ -235,8 +235,8 @@
             android:layout_width="0dp"
             android:onClick="clickLetter"
             android:text="@string/button_letter_j"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
+            android:background="@drawable/buttonletterstyle1"
+            android:textColor = "@drawable/lettercolor1"
          />
          
          <Button
@@ -246,8 +246,8 @@
             android:layout_width="0dp"
             android:onClick="clickLetter"
             android:text="@string/button_letter_k"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
+            android:background="@drawable/buttonletterstyle"
+            android:textColor = "@drawable/lettercolor"
          />
          
          <Button
@@ -257,8 +257,8 @@
             android:layout_width="0dp"
             android:onClick="clickLetter"
             android:text="@string/button_letter_l"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
+            android:background="@drawable/buttonletterstyle1"
+            android:textColor = "@drawable/lettercolor1"
          />
     </LinearLayout>
     <LinearLayout
@@ -269,7 +269,7 @@
         android:gravity="center_horizontal"
         android:padding="0.5dp"
         android:weightSum="10"
-        android:textSize = "18sp" >        
+        android:textSize = "22sp" >        
         
         <Button
             android:id="@+id/buttonZ" 
@@ -278,8 +278,8 @@
             android:layout_width="0dp"
             android:onClick="clickLetter"
             android:text="@string/button_letter_z"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
+            android:background="@drawable/buttonletterstyle1"
+            android:textColor = "@drawable/lettercolor1"
          />
          <Button
             android:id="@+id/buttonX" 
@@ -288,8 +288,8 @@
             android:layout_width="0dp"
             android:onClick="clickLetter"
             android:text="@string/button_letter_x"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
+            android:background="@drawable/buttonletterstyle"
+            android:textColor = "@drawable/lettercolor"
          />
          
          <Button
@@ -299,8 +299,8 @@
             android:layout_width="0dp"
             android:onClick="clickLetter"
             android:text="@string/button_letter_c"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
+            android:background="@drawable/buttonletterstyle1"
+            android:textColor = "@drawable/lettercolor1"
          />
          
          <Button
@@ -310,8 +310,8 @@
             android:layout_width="0dp"
             android:onClick="clickLetter"
             android:text="@string/button_letter_v"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
+            android:background="@drawable/buttonletterstyle"
+            android:textColor = "@drawable/lettercolor"
          />
          
          <Button
@@ -321,8 +321,8 @@
             android:layout_width="0dp"
             android:onClick="clickLetter"
             android:text="@string/button_letter_b"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
+            android:background="@drawable/buttonletterstyle1"
+            android:textColor = "@drawable/lettercolor1"
          />
          
          <Button
@@ -332,8 +332,8 @@
             android:layout_width="0dp"
             android:onClick="clickLetter"
             android:text="@string/button_letter_n"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
+            android:background="@drawable/buttonletterstyle"
+            android:textColor = "@drawable/lettercolor"
          />
          
          <Button
@@ -343,8 +343,8 @@
             android:layout_width="0dp"
             android:onClick="clickLetter"
             android:text="@string/button_letter_m"
-            android:background="#44359C19"
-            android:textColor = "#ffff"
+            android:background="@drawable/buttonletterstyle1"
+            android:textColor = "@drawable/lettercolor1"
          />
          
     </LinearLayout>
@@ -365,8 +365,8 @@
             android:layout_width="0dp"
             android:onClick="goHome"
             android:text="@string/button_go_home"
-            android:background="#99359C19"
-            android:textColor = "#ffff"
+            android:background= "@drawable/buttonnextonestyle"
+            android:textColor =  "@drawable/nextonecolor"
          />
         <TextView 
             android:layout_weight = "1.5"
@@ -380,8 +380,8 @@
             android:layout_height="fill_parent"
             android:onClick="nextOne"
             android:text="@string/button_next"
-            android:background="#99359C19"
-            android:textColor = "#ffff"
+            android:background= "@drawable/buttonnextonestyle"
+            android:textColor = "@drawable/nextonecolor"
          />
     </LinearLayout>
 </LinearLayout>

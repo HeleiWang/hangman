@@ -21,19 +21,26 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int hang0=0x7f020000;
-        public static final int hang1=0x7f020001;
-        public static final int hang2=0x7f020002;
-        public static final int hang3=0x7f020003;
-        public static final int hang4=0x7f020004;
-        public static final int hang5=0x7f020005;
-        public static final int hang6=0x7f020006;
-        public static final int hang7=0x7f020007;
-        public static final int hang8=0x7f020008;
-        public static final int hanggood=0x7f020009;
-        public static final int ic_launcher=0x7f02000a;
-        public static final int index=0x7f02000b;
-        public static final int listview=0x7f02000c;
+        public static final int buttonletterstyle=0x7f020000;
+        public static final int buttonletterstyle1=0x7f020001;
+        public static final int buttonnextonestyle=0x7f020002;
+        public static final int buttonstartstyle=0x7f020003;
+        public static final int hang0=0x7f020004;
+        public static final int hang1=0x7f020005;
+        public static final int hang2=0x7f020006;
+        public static final int hang3=0x7f020007;
+        public static final int hang4=0x7f020008;
+        public static final int hang5=0x7f020009;
+        public static final int hang6=0x7f02000a;
+        public static final int hang7=0x7f02000b;
+        public static final int hang8=0x7f02000c;
+        public static final int hanggood=0x7f02000d;
+        public static final int ic_launcher=0x7f02000e;
+        public static final int index=0x7f02000f;
+        public static final int lettercolor=0x7f020010;
+        public static final int lettercolor1=0x7f020011;
+        public static final int nextonecolor=0x7f020012;
+        public static final int startcolor=0x7f020013;
     }
     public static final class id {
         public static final int action_settings=0x7f080021;
@@ -46,24 +53,24 @@ public final class R {
         public static final int buttonG=0x7f080013;
         public static final int buttonH=0x7f080014;
         public static final int buttonHome=0x7f08001f;
-        public static final int buttonI=0x7f08000b;
+        public static final int buttonI=0x7f08000c;
         public static final int buttonJ=0x7f080015;
         public static final int buttonK=0x7f080016;
         public static final int buttonL=0x7f080017;
         public static final int buttonM=0x7f08001e;
         public static final int buttonN=0x7f08001d;
         public static final int buttonNext=0x7f080020;
-        public static final int buttonO=0x7f08000c;
-        public static final int buttonP=0x7f08000d;
+        public static final int buttonO=0x7f08000d;
+        public static final int buttonP=0x7f08000e;
         public static final int buttonQ=0x7f080005;
-        public static final int buttonR=0x7f08000e;
+        public static final int buttonR=0x7f080008;
         public static final int buttonS=0x7f080010;
-        public static final int buttonT=0x7f080008;
-        public static final int buttonU=0x7f08000a;
+        public static final int buttonT=0x7f080009;
+        public static final int buttonU=0x7f08000b;
         public static final int buttonV=0x7f08001b;
         public static final int buttonW=0x7f080006;
         public static final int buttonX=0x7f080019;
-        public static final int buttonY=0x7f080009;
+        public static final int buttonY=0x7f08000a;
         public static final int buttonZ=0x7f080018;
         public static final int imageHanging=0x7f080003;
         public static final int textFill=0x7f080004;
@@ -72,10 +79,9 @@ public final class R {
         public static final int textView2=0x7f080001;
     }
     public static final class layout {
-        public static final int activity_display_message=0x7f030000;
-        public static final int activity_level_select=0x7f030001;
-        public static final int activity_main=0x7f030002;
-        public static final int activity_play=0x7f030003;
+        public static final int activity_level_select=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int activity_play=0x7f030002;
     }
     public static final class menu {
         public static final int display_message=0x7f070000;
@@ -88,39 +94,38 @@ public final class R {
         public static final int app_name=0x7f050000;
         public static final int button_easy_level=0x7f050002;
         public static final int button_expert_level=0x7f050004;
-        public static final int button_go_home=0x7f050023;
+        public static final int button_go_home=0x7f050022;
         public static final int button_hard_level=0x7f050003;
-        public static final int button_letter_a=0x7f050009;
-        public static final int button_letter_b=0x7f05000a;
-        public static final int button_letter_c=0x7f05000b;
-        public static final int button_letter_d=0x7f05000c;
-        public static final int button_letter_e=0x7f05000d;
-        public static final int button_letter_f=0x7f05000e;
-        public static final int button_letter_g=0x7f05000f;
-        public static final int button_letter_h=0x7f050010;
-        public static final int button_letter_i=0x7f050011;
-        public static final int button_letter_j=0x7f050012;
-        public static final int button_letter_k=0x7f050013;
-        public static final int button_letter_l=0x7f050014;
-        public static final int button_letter_m=0x7f050015;
-        public static final int button_letter_n=0x7f050016;
-        public static final int button_letter_o=0x7f050017;
-        public static final int button_letter_p=0x7f050018;
-        public static final int button_letter_q=0x7f050019;
-        public static final int button_letter_r=0x7f05001a;
-        public static final int button_letter_s=0x7f05001b;
-        public static final int button_letter_t=0x7f05001c;
-        public static final int button_letter_u=0x7f05001d;
-        public static final int button_letter_v=0x7f05001e;
-        public static final int button_letter_w=0x7f05001f;
-        public static final int button_letter_x=0x7f050020;
-        public static final int button_letter_y=0x7f050021;
-        public static final int button_letter_z=0x7f050022;
-        public static final int button_next=0x7f050024;
+        public static final int button_letter_a=0x7f050008;
+        public static final int button_letter_b=0x7f050009;
+        public static final int button_letter_c=0x7f05000a;
+        public static final int button_letter_d=0x7f05000b;
+        public static final int button_letter_e=0x7f05000c;
+        public static final int button_letter_f=0x7f05000d;
+        public static final int button_letter_g=0x7f05000e;
+        public static final int button_letter_h=0x7f05000f;
+        public static final int button_letter_i=0x7f050010;
+        public static final int button_letter_j=0x7f050011;
+        public static final int button_letter_k=0x7f050012;
+        public static final int button_letter_l=0x7f050013;
+        public static final int button_letter_m=0x7f050014;
+        public static final int button_letter_n=0x7f050015;
+        public static final int button_letter_o=0x7f050016;
+        public static final int button_letter_p=0x7f050017;
+        public static final int button_letter_q=0x7f050018;
+        public static final int button_letter_r=0x7f050019;
+        public static final int button_letter_s=0x7f05001a;
+        public static final int button_letter_t=0x7f05001b;
+        public static final int button_letter_u=0x7f05001c;
+        public static final int button_letter_v=0x7f05001d;
+        public static final int button_letter_w=0x7f05001e;
+        public static final int button_letter_x=0x7f05001f;
+        public static final int button_letter_y=0x7f050020;
+        public static final int button_letter_z=0x7f050021;
+        public static final int button_next=0x7f050023;
         public static final int button_start_game=0x7f050001;
-        public static final int title_activity_display_message=0x7f050006;
-        public static final int title_activity_level_select=0x7f050007;
-        public static final int title_activity_play=0x7f050008;
+        public static final int title_activity_level_select=0x7f050006;
+        public static final int title_activity_play=0x7f050007;
     }
     public static final class style {
         /** 

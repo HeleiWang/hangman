@@ -8,14 +8,19 @@ import java.util.Random;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.style.ForegroundColorSpan;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.TextView.BufferType;
 
 public class PlayActivity extends Activity {
 	private Random randomGenerator = new Random();
@@ -97,7 +102,7 @@ public class PlayActivity extends Activity {
 	
 	private void inputLetter(char c){
 		boolean isContain = false;
-		for(int i =0; i <key.length();++i){
+		for(int i =0; i < key.length();++i){
 			char ans = key.charAt(i);
 			if(c == ans){
 				isContain = true;
@@ -122,14 +127,12 @@ public class PlayActivity extends Activity {
 		String result = new String();
 		for(int i=0;i<curAnswer.size();++i){
 			if(curAnswer.get(i)){
-				result += (key.charAt(i));
+				result += (key.charAt(i)+" ");
 			}
 			else{
 				result += "_ ";
 			}
 		}
-		
-		///////////////////////////////////
         Log.d("test",result);
         
 		return result;
@@ -148,8 +151,8 @@ public class PlayActivity extends Activity {
 		    	key = hardWords.get(randomGenerator.nextInt(hardWords.size()));
 			break;
 		 }
-		///////////////////////////////////
-        Log.d("test",key);
+		
+		Log.d("test",key);
         
 		curAnswer = new ArrayList<Boolean>();
 		for (int i = 0; i < key.length(); i++) {
@@ -171,9 +174,9 @@ public class PlayActivity extends Activity {
 			numOfShow = 0;
 		}
 
-		///////////////////////////////////
+
         Log.d("test","curMan"+curMan);
-		///////////////////////////////////
+
         Log.d("test","numOfShow"+numOfShow);
         
 		for(int i=0;i<numOfShow;++i){
@@ -201,17 +204,22 @@ public class PlayActivity extends Activity {
 		}
 		
 		ImageView imageHanging = (ImageView)findViewById(R.id.imageHanging);
-		
+        TextView textFill = (TextView)findViewById(R.id.textFill);
+        
         if(isComplete){
-        	imageHanging.setImageResource(R.drawable.hang0);
+        	imageHanging.setImageResource(R.drawable.hanggood);
         	for(int i=0;i<26;i++){
         		char c = (char) ('a' + i);
         		disableLetter(c);
         	}
+        	textFill.setText(getCurAnser());
         	return;
 		}
-        
+       
         //not complete
+        if(curMan < 8){
+        	textFill.setText(getCurAnser());
+        }
 		switch (curMan)
 		{
 		    case 0:
@@ -244,6 +252,18 @@ public class PlayActivity extends Activity {
 	        		char c = (char) ('a' + i);
 	        		disableLetter(c);
 	        	} //game over
+		    	String rightAnswer = new String("");
+		    	for(int i=0;i<curAnswer.size();++i){
+		    		rightAnswer += key.charAt(i)+" ";
+		    	}
+		    	SpannableString text = new SpannableString(rightAnswer);  
+		    	
+		    	for(int i=0;i<curAnswer.size();++i){
+					if(!curAnswer.get(i)){
+						text.setSpan(new ForegroundColorSpan(Color.GRAY), 2*i, 2*i+1, Spannable.SPAN_INCLUSIVE_EXCLUSIVE);  
+					}
+				}
+		    	textFill.setText(text, BufferType.SPANNABLE);
 		    	break;		    
 		 }
 	}
@@ -351,8 +371,7 @@ public class PlayActivity extends Activity {
                case R.id.buttonZ:  inputLetter('z');
                                      break;
 		  }
-		TextView textFill = (TextView)findViewById(R.id.textFill);
-        textFill.setText(getCurAnser());
+		
     	checkResult();
 	}
 	

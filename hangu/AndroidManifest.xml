@@ -23,14 +23,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.hangu.DisplayMessageActivity"
-            android:label="@string/title_activity_display_message"
-            android:parentActivityName="com.example.hangu.MainActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.hangu.MainActivity" />
-        </activity>
-        <activity
             android:name="com.example.hangu.LevelSelectActivity"
             android:label="@string/title_activity_level_select"
             android:parentActivityName="com.example.hangu.MainActivity" >
