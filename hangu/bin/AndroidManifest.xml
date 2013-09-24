@@ -15,6 +15,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.hangu.MainActivity"
+            android:launchMode="singleTop"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +25,7 @@
         </activity>
         <activity
             android:name="com.example.hangu.LevelSelectActivity"
+            android:launchMode="singleTop"
             android:label="@string/title_activity_level_select"
             android:parentActivityName="com.example.hangu.MainActivity" >
             <meta-data
