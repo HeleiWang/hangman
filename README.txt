@@ -3,6 +3,8 @@ My design is an Android app for traditional English game "Hangman".
 
 The game have three levels: easy, hard and expert. The game will select random word from game's dictionary. And you will guess 3 different letters of the word for easy level.(4 letters for hard level and 5 for the expert level). If the word is too short for the requirement of the level, your man will be hanged by hanged by several steps before your first guess.
 
+The screenshot is the playing page during playing. There are another two pages (homepage and level-select-page) in the app. All buttons are signed with color-changed effect.
+
 Some graphic work is referenced to http://www.hangman.no/ and http://www.tabletalkatlarrys.com/index.php/2011/06/i-still-love-to-eat-quadruple-coronory-bypass-surgery/.
 
 The app is not only used for Android study by Helei Wang. It is not for profit. Helei Wang helds the whole copyright of the codes. Please delete it within 24hours after downloading.
