@@ -1,3 +1,7 @@
+The github repo is on https://github.com/HeleiWang/hangman.
+The https clone URL is https://github.com/HeleiWang/hangman.git
+You may also find me by searching "Helei Wang" on github.
+
 My design is an Android app for traditional English game "Hangman".
 (In case of anyone not hearing about Hangman…Here is the wiki description of the game http://en.wikipedia.org/wiki/Hangman_(game).)
 
