@@ -5,7 +5,7 @@ The game have three levels: easy, hard and expert. The game will select random w
 
 Some graphic work is referenced to http://www.hangman.no/ and http://www.tabletalkatlarrys.com/index.php/2011/06/i-still-love-to-eat-quadruple-coronory-bypass-surgery/.
 
-The app is not only used for Android study by Helei Wang. It is not for profit. Helei Wang held the whole copyright of the codes. Please delete it within 24hours after downloading.
+The app is not only used for Android study by Helei Wang. It is not for profit. Helei Wang helds the whole copyright of the codes. Please delete it within 24hours after downloading.
 
 
 --How to install it on Android Phone:
